@@ -22,6 +22,15 @@ class Manager extends Employees {
     this.bonusPercentage = bonusPercentage;
     super(Employees);
   }
-  salaryIncrease(increaseAmount) {}
+  salaryIncrease(increaseAmount) {
+    increaseAmount = salary.managersJSON;
+  }
+  getWorkingYears(total) {
+    total = this.yearJoined - 2023;
+  }
+  empNames(name) {
+    name.Employees.forEach((eName) => (eName = idBadge()));
+  }
 }
 bonusPercentage = new Manager(bonusPercentage.Manager());
+// const = new Manger( )
